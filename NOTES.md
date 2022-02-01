@@ -26,3 +26,8 @@ Slide "Already known across Europe". We could add some figures.
 
 ## Thank you
  
+ 
+ 
+## Misc comments
+
+Maybe talk more about the MONARC methodology ? how it helps the decision making.
