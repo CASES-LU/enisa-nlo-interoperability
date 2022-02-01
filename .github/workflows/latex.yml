@@ -1,0 +1,21 @@
+name: Build LaTeX document
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v1
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@master
+        with:
+          root_file: presentation.tex
+
+      - run: mkdir -p artifact
+      - run: mv presentation.pdf artifact/
+
+      - uses: actions/upload-artifact@v1
+        with:
+          name: MONARC-ENISA-presentation.pdf
+          path: artifact
