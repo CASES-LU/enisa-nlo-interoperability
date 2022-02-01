@@ -7,4 +7,4 @@ Presentation for the
 Download latest build [CASES-LU](https://github.com/CASES-LU/enisa-nlo-interoperability/actions)
 
 
-Notes and comments about the presentation [here][NOTES.md].
+Notes and comments about the presentation [here](NOTES.md).
